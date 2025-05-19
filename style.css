@@ -2,22 +2,23 @@
 
 /* Variáveis */
 :root {
-    --primary-color: #cc5656;
-    --secondary-color: #a35151;
-    --text-color: #300000;
-    --background-color: #ffffff;
-    --button-hover: #ffdede;
+    --primary-color: #e07171;
+    --secondary-color: #d88b8b;
+    --text-color: #461313;
+    --background-color: #f2d5d5;
+    --button-hover: #400101;
     --font-body: "Chocolate Classical Sans", serif;
     --font-titulo: "Rakkas", serif;
 }
 
 
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-body);
 }
+
 
 body {
     background-color: var(--background-color);
@@ -36,3 +37,4 @@ p {
 img {
     max-width: 90%;
 }
+
